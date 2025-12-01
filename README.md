@@ -2,42 +2,28 @@
 
 ![image](https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2023-08/FMCG%20Full%20Form%20in%20Retail_0.jpg)
 
-## Project Overview
-AtliQ Mart, a growing FMCG manufacturer headquartered in Gujarat, India, is currently operational in three cities: Surat, Ahmedabad, and Vadodara. The company plans to expand to other metros and Tier 1 cities within the next two years.
-However, AtliQ Mart is facing a critical challenge where some key customers have not renewed their annual contracts due to service-related issues. Specifically, vital products were either not delivered on time or not delivered in full repeatedly, adversely affecting customer satisfaction and service reliability.
-To address this, management required a robust analytical solution to monitor critical supply chain service metrics—namely On-Time Delivery (OT%), In-Full Delivery (IF%), and On-Time In-Full Delivery (OTIF%)—on a daily basis for all customers. This would enable rapid identification and resolution of service lapses before proceeding with expansion.
+## Problem statement
+AtliQ Mart is a growing FMCG manufacturer headquartered in Gujarat, India. It is currently operational in three cities Surat, Ahmedabad and Vadodra. They want to expand to other metro/tier1 cities in the next 2 years.
 
-## Project Objective
-Design and develop a Supply Chain Service Excellence Dashboard that:
-- Monitors daily service level KPIs (OT%, IF%, OTIF%) at customer, product, and city levels.
-- Compares actual delivery performance against predefined customer-specific target service levels.
-- Provides intuitive, interactive visualizations to quickly identify service issues by customers, products, and locations.
-- Enables supply chain managers to take timely corrective actions to improve service quality.
-- Supports strategic decision-making for planned geographic expansion by ensuring service reliability in existing markets.
+AtliQ Mart is currently facing a problem where a few key customers did not extend the annual contract due to service issues. It is speculated that some of the essential products were either not delivered on time or not delivered in full over a continued period, which could have resulted in bad customer service. Management wants to fix this issue before expanding to other cities and requested their supply chain analytics team to track the ’On time’ and ‘In Full’ delivery service level for all the customers on a daily basis so that they can respond swiftly to these issues.
 
-## Dashboard Features
-- Overview Dashboard:
-Displays key KPIs with trendline charts tracking OT%, IF%, and OTIF% over time, and breakdowns by city and product for high-level insight.
+The Supply Chain team decided to use a standard approach to measure the service level in which they will measure ‘on-time delivery (OT) %’, ‘In-full delivery (IF) %’ and OnTime in full (OTIF) % of the customer orders on a daily basis against the target service level set for each customer.
 
-- Customer Service Analysis:
-Matrix and visual comparisons showing customer-wise delivery performance against targets, highlighting at-risk customers with conditional formatting.
+## Tasks
+Peter Pandey is the data analyst in the supply chain team who joined Atliq Mart recently. He has been briefed about the the task in the stakeholder business review meeting. Now Imagine yourself as Peter Pandey and play the role of the new data analyst who is excited to build this dashboard and perform the following task
 
-- Product Performance:
-Analyzes fulfillment rates and delivery issues by product category and SKU.
+Create the metrics according to the metrics list. Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the transcript of this business review meeting in the form of a comic. Create relevant insights that are not provided in the metric list/stakeholder meeting.
 
-- Order Trend Insights:
-Time-series charts and decomposition visuals for diagnosing root causes of service level drops.
-
-## Impact & Skills Demonstrated
-- Timely identification: Enables daily monitoring, allowing the supply chain team to proactively address customer service issues.
-- Customer retention: Provides actionable insights to improve service levels for key customers, supporting contract renewals.
-- Expansion readiness: Establishes a reliable data-driven foundation to ensure service quality before geographic growth.
-- Analytical mindset: Supply chain KPI development, root cause analysis, and performance measurement.
-- Business acumen: Understanding FMCG supply chain challenges and management reporting needs.
-
-## Conclusion
-This project demonstrates my ability to design and implement a comprehensive supply chain performance monitoring system addressing real-world FMCG operational challenges. The Supply Chain Service Excellence Dashboard empowers the team to enhance customer satisfaction and positions AtliQ Mart for successful expansion into new markets.
-
+## Some Major Insights
+- All the Key Metrics (OT%, IF%, OTIF%) are far behind the target
+- On an average, orders are delayed 0.42 days from the agreed date of delivery
+- Lotus Mart, Coolblue, Acclaimed stores have the highest orders as well as delayed the most to deliver the products on time
+  - Is it because we are not estimating the right delivery date?
+  - Is it because we are receiving more orders than expected?
+- Ghee, curd and butter products are most delayed to deliver.
+- There is no noticeable improvements in any of the key metrics in the last few months
+- There is a huge gap in IF% for most of the customers. Is it because of less production?
+  
 ## About Me
 I'm always up for connecting with fellow data lovers, mentors, and potential collaborators! 
 <p align="left">
